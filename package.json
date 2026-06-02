@@ -12,11 +12,12 @@
   },
   "homepage": "https://github.com/JAE-HUN-CHO/commandproof#readme",
   "bin": {
-    "commandproof": "./bin/commandproof.js"
+    "commandproof": "bin/commandproof.js"
   },
   "scripts": {
     "test": "node --test",
-    "lint": "node --check bin/commandproof.js && node --check src/*.js && node --check test/*.test.js"
+    "lint": "node --check bin/commandproof.js && node --check src/*.js && node --check test/*.test.js",
+    "smoke": "node bin/commandproof.js examples/README.md --dry-run --json"
   },
   "engines": {
     "node": ">=20"

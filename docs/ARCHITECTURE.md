@@ -50,6 +50,7 @@ The JSON shape should remain stable enough for scripts to consume.
 - Keep the CLI compact.
 - Prefer a clear failure mode over clever inference.
 - Keep safety checks visible in the code and docs.
+- Keep smoke checks lightweight enough for CI and release routines.
 
 ## JSON contract
 

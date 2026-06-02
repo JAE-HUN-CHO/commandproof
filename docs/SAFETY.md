@@ -8,8 +8,8 @@ The CLI blocks dangerous commands by default. The current safety policy rejects 
 
 - `sudo`
 - `rm -rf /`
-- `curl | sh`
-- `wget | sh`
+- `curl | sh`, `curl | bash`, and `curl | zsh`
+- `wget | sh`, `wget | bash`, and `wget | zsh`
 - `mkfs`
 - `dd of=`
 - `chmod -R 777 /`

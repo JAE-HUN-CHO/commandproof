@@ -35,6 +35,8 @@ Sets the per-block timeout in milliseconds.
 
 Emits machine-readable output instead of the default human-readable summary.
 
+This is the preferred mode for CI and release automation.
+
 ### `--dry-run`
 
 Lists runnable blocks without executing them.
@@ -128,4 +130,9 @@ commandproof README.md --dry-run
 ```bash
 # Emit JSON for automation
 commandproof README.md --json
+```
+
+```bash
+# Run the repository smoke check
+npm run smoke
 ```
