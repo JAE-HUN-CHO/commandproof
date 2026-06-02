@@ -1,0 +1,8 @@
+node_modules/
+.omo/
+.omx/
+evidence/
+coverage/
+*.tgz
+npm-debug.log*
+.DS_Store

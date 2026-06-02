@@ -1,0 +1,40 @@
+{
+  "name": "commandproof",
+  "version": "0.1.0",
+  "description": "Prove README shell commands still run.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAE-HUN-CHO/commandproof.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JAE-HUN-CHO/commandproof/issues"
+  },
+  "homepage": "https://github.com/JAE-HUN-CHO/commandproof#readme",
+  "bin": {
+    "commandproof": "./bin/commandproof.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check bin/commandproof.js && node --check src/*.js && node --check test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "docs/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "readme",
+    "ci",
+    "documentation",
+    "cli",
+    "testing"
+  ],
+  "license": "MIT"
+}
